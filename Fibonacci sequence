@@ -1,0 +1,15 @@
+public class Fibonacci{
+    public static void main(String []args){
+    int n = 10;
+    System.out.println(fibbo());
+ }
+static int fibbo(int n){
+if(n<=1){
+return n;
+}else{
+return fibbo(n -2) + fibbo(n- 1);
+}
+}
+}
+
+//output =55
