@@ -27,6 +27,7 @@ class  test4{
 
         Circle c1 = new Circle(9);
          c1.area();
+     c1.primeter();
 
     }
 }
